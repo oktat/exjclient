@@ -23,6 +23,7 @@ public class HttpClient {
         } catch (IOException e) {
             String msg = "Hiba! A GET kérés sikertelen!";
             System.err.println(msg);
+            System.err.println(e.getMessage());
             result = msg;
         }
         return result;
@@ -44,6 +45,7 @@ public class HttpClient {
         } catch (IOException e) {
             String msg = "Hiba! A REST API elérés sikertelen!";
             System.err.println(msg);
+            System.err.println(e.getMessage());
             result = msg;
         }
         return result;
