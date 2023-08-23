@@ -1,0 +1,22 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Csendes Géza",
+            "city": "Szeged",
+            "salary": 385
+        },
+        {
+            "id": 2,
+            "name": "Csoda Barbara",
+            "city": "Szolnok",
+            "salary": 374
+        },
+        {
+            "id": 3,
+            "name": "Heves Tamás",
+            "city": "Szeged",
+            "salary": 395
+        }
+    ]
+}
